@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- <script src="./app.js"></script> -->
+    <script src="./dummy.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Intro of IndexedDB</h1>
+    </header>
+    <main>
+        <section>
+            <form >
+                <div class="input-box">
+                    <label>Id: </label><input type="text" id="id">
+                </div>
+                <div class="input-box">
+                    <label>Name:</label> <input type="text" id="name">
+                </div>
+                <div class="input-box">
+                    <label>Email:</label> <input type="text" id="email">
+                </div>
+                <div class="input-box">
+                    <label>Address: </label><input type="text" id="address">
+                </div>
+                <button id="submitBtn" type="button" onclick="submitData()">Submit</button>
+                <button id="retrieveBtn" onclick="retreiveData()" type="button">Retrieve</button>
+                <button id="retrieveBtn" onclick="add()" type="button">Add Data</button>
+                <button id="retrieveBtn" onclick="remove()" type="button">Remove</button>
+                <button id="retrieveBtn" onclick="readAll()" type="button">Get All</button>
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>

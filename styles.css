@@ -1,0 +1,13 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.input-box{
+    max-width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+label{
+    min-width: 80px;
+    text-align: right;
+}
